@@ -1,0 +1,12 @@
+<html lang="he">
+<head>
+  <meta charset="UTF-8">
+  <title>סקריפט אוטומציה</title>
+</head>
+<body>
+  <h1>סקריפט בדיקות אוטומציה</h1>
+
+  <p>לחץ על הקישור כדי להוריד את הסקריפט:</p>
+  <a href="my_test_script.py" download>הורד את הסקריפט שלי</a>
+</body>
+</html>
