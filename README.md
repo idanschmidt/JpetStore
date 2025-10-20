@@ -70,7 +70,7 @@
       display: inline-block;
       margin-top: 20px;
       padding: 10px 20px;
-      background-color: #0078d7;
+      background-color: red;
       color: white;
       text-decoration: none;
       border-radius: 8px;
@@ -81,9 +81,9 @@
   </style>
 </head>
 <body>
-  <header>
+  
     <h1>סקריפט בדיקות אוטומציה</h1>
-  </header>
+ 
 
   <main>
     <p>לחץ על הכפתור כדי להוריד את הסקריפט המלא:</p>
