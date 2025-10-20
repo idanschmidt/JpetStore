@@ -14,7 +14,7 @@
       text-align: center;
     }
     header {
-      background-color: #0078d7;
+      background-color: BLACK;
       color: white;
       padding: 20px 0;
     }
@@ -40,7 +40,7 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f4f4f9;
+      background-color: BLACK;
       color: #333;
       margin: 0;
       padding: 0;
@@ -48,7 +48,7 @@
       text-align: center;
     }
     header {
-      background-color: #0078d7;
+      background-color: BLACK;
       color: white;
       padding: 20px 0;
     }
@@ -60,7 +60,7 @@
     }
     pre {
       text-align: left;
-      background-color: #e8e8e8;
+      background-color:BLACK;
       padding: 20px;
       border-radius: 10px;
       overflow-x: auto;
@@ -70,7 +70,7 @@
       display: inline-block;
       margin-top: 20px;
       padding: 10px 20px;
-      background-color: red;
+      background-color:BLACK;
       color: white;
       text-decoration: none;
       border-radius: 8px;
