@@ -40,7 +40,7 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: BLACK;
+      background-color: WHITE;
       color: #333;
       margin: 0;
       padding: 0;
