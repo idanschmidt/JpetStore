@@ -30,12 +30,7 @@
   <header>
     <h1>הפרויקטים שלי</h1>
   </header>
- <a href="STP" </a>
-   <a href="STR" </a>
-     <a href="STP3" </a>
-       <a href="STR3" </a>
-         <a href="Run report" </a>
-           <a href="Functional decomposition" </a>
+ 
   <main>
     <html lang="he">
 <head>
