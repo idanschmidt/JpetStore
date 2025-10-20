@@ -60,7 +60,7 @@
     }
     pre {
       text-align: left;
-      background-color:BLACK;
+      background-color:BLUE;
       padding: 20px;
       border-radius: 10px;
       overflow-x: auto;
