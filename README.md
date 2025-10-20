@@ -87,7 +87,7 @@
 
   <main>
     <p>לחץ על הכפתור כדי להוריד את הסקריפט המלא:</p>
-    <a href="my_test_script.py" download>הורד את הסקריפט שלי</a>
+    <a href="MyScriptProject.py" download>הורד את הסקריפט שלי</a>
 
     <h2>תצוגת הקוד (חלקית)</h2>
     <pre>
