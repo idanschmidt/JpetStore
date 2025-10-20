@@ -48,7 +48,7 @@
       text-align: center;
     }
     header {
-      background-color: BLACK;
+      background-color: BLUE;
       color: white;
       padding: 20px 0;
     }
