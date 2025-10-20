@@ -1,4 +1,4 @@
-#מייבא פונקציית זמן,מודל דפדפן,מחלקת שמאפשרת בחירת אלמנטים לפי מזהים שונים
+#מייבא פונקציית זמן,מודל דפדפן,ומחלקה שמאפשרת בחירת אלמנטים לפי מזהים שונים
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -12,7 +12,7 @@ driver = webdriver.Chrome()
 # ניווט לדף האתר
 driver.get("https://jpetstore.aspectran.com/")
 
-print("***תוצאה צפויה-לא מתחבר")
+print("***תוצאה צפויה-Error message: Invalid username or password. Signon failed.")
 #פעולה ראשונה-עבור לדף התחברות בלחיצה על כפתור SIGN IN
 sign_in_button = driver.find_element(By.CLASS_NAME,"btn-outline-light")
 sign_in_button.click()
@@ -55,7 +55,7 @@ print("\n")
 #בדיקה שנייה
 # ניווט לדף האתר
 driver.get("https://jpetstore.aspectran.com/")
-print("***תוצאה צפויה-לא מתחבר")
+print("***תוצאה צפויה-Error message: Invalid username or password. Signon failed.")
 #פעולה ראשונה-עבור לדף התחברות בלחיצה על כפתור SIGN IN
 sign_in_button = driver.find_element(By.CLASS_NAME,"btn-outline-light")
 sign_in_button.click()
@@ -99,7 +99,7 @@ print("\n")
 #בדיקה שלישית
 # ניווט לדף האתר
 driver.get("https://jpetstore.aspectran.com/")
-print("***תוצאה צפויה-לא מתחבר")
+print("***תוצאה צפויה-Error message: Invalid username or password. Signon failed.")
 #פעולה ראשונה-עבור לדף התחברות בלחיצה על כפתור SIGN IN
 sign_in_button = driver.find_element(By.CLASS_NAME,"btn-outline-light")
 sign_in_button.click()
@@ -174,7 +174,7 @@ print("לוחץ על כפתור -LOGIN")
 sign_out_button=driver.find_element(By.ID,"dropdownMenuButton")
 sign_out_button.click()
 time.sleep(5)
-print("מוצגת הודעת WELCOME IDAN+מוצא את כפתור SIGNOUT+MY ACCOUNT")
+print("מוצגת הודעת WELCOME IDAN+מוצא את כפתור SIGNOUT")
 
 #תוצאה
 result = driver.find_element(By.LINK_TEXT, "Sign Out")
@@ -195,13 +195,14 @@ print("\n" + "*" * 80 + "\n")
 
 driver.quit()
 
+#פותח דפדפן חדש
 driver = webdriver.Chrome()
 
 #YUVAL - הרצת בדיקות משתמש שני
 #בדיקה ראשונה
 # ניווט לדף האתר
 driver.get("https://jpetstore.aspectran.com/")
-print("***תוצאה צפויה-לא מתחבר")
+print("***תוצאה צפויה-Error message: Invalid username or password. Signon failed.")
 #פעולה ראשונה-עבור לדף התחברות בלחיצה על כפתור SIGN IN
 sign_in_button = driver.find_element(By.CLASS_NAME,"btn-outline-light")
 sign_in_button.click()
@@ -245,7 +246,7 @@ print("\n")
 #בדיקה שנייה
 # ניווט לדף האתר
 driver.get("https://jpetstore.aspectran.com/")
-print("***תוצאה צפויה-לא מתחבר")
+print("***תוצאה צפויה-Error message: Invalid username or password. Signon failed.")
 #פעולה ראשונה-עבור לדף התחברות בלחיצה על כפתור SIGN IN
 sign_in_button = driver.find_element(By.CLASS_NAME,"btn-outline-light")
 sign_in_button.click()
@@ -289,7 +290,7 @@ print("\n")
 #בדיקה שלישית
 # ניווט לדף האתר
 driver.get("https://jpetstore.aspectran.com/")
-print("***תוצאה צפויה-לא מתחבר")
+print("***תוצאה צפויה-Error message: Invalid username or password. Signon failed.")
 #פעולה ראשונה-עבור לדף התחברות בלחיצה על כפתור SIGN IN
 sign_in_button = driver.find_element(By.CLASS_NAME,"btn-outline-light")
 sign_in_button.click()
@@ -364,7 +365,7 @@ print("לוחץ על כפתור -LOGIN")
 sign_out_button=driver.find_element(By.ID,"dropdownMenuButton")
 sign_out_button.click()
 time.sleep(5)
-print("מוצגת הודעת WELCOME YUVAL+מוצא את כפתור SIGNOUT+MY ACCOUNT")
+print("מוצגת הודעת WELCOME YUVAL+מוצא את כפתור SIGNOUT")
 
 #תוצאה
 result = driver.find_element(By.LINK_TEXT, "Sign Out")
