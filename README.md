@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="he">
 <head>
   <meta charset="UTF-8">
