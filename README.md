@@ -14,7 +14,7 @@
       text-align: center;
     }
     header {
-      background-color: BLACK;
+      background-color: WHITE;
       color: white;
       padding: 20px 0;
     }
