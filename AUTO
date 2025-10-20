@@ -7,7 +7,7 @@
   <h1>סקריפט בדיקות אוטומציה</h1>
 
   <p>לחץ על הכפתור כדי להוריד את הסקריפט שלי:</p>
-  <a href="my_test_script.py" download>הורד את הסקריפט שלי</a>
+  <a href="MyScriptProject.py" download>הורד את הסקריפט שלי</a>
 </body>
 </html>
 
