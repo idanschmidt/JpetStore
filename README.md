@@ -166,8 +166,8 @@ driver.quit()
           מסמך STP מפרט את אסטרטגיית הבדיקות, היקף הבדיקות, סביבת העבודה, 
           כלי הבדיקה והשיטות בהן השתמשתי במהלך הפרויקט.
         </p>
-        <a href="STP.dock">צפה במסמך STP</a>
-           <a href="STP3.dock">צפה במסמך STP</a>
+        <a href="[STP.dock](https://docs.google.com/document/d/1JtMgr5dU9URAdJ7VXqxckaiarcgpRlpQ/edit?usp=drive_link&ouid=102490978916154441779&rtpof=true&sd=true)">צפה במסמך STP</a>
+           <a href="[STP3.dock](https://docs.google.com/document/d/14S3nZwK5bVuJcRWk5nR6qEZ41IQAXV7F/edit?usp=drive_link&ouid=102490978916154441779&rtpof=true&sd=true)">צפה במסמך STP3</a>
       </div>
     </section>
 
