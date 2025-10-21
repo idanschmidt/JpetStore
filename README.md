@@ -153,7 +153,7 @@ driver.quit()
           בעיות שהתגלו במהלך הרצת התסריטים, והמלצות לשיפורים.
         </p>
         <a href="STR">צפה במסמך STR</a>
-         <a href="STR">צפה במסמך STR3</a>
+         <a href="STR3">צפה במסמך STR3</a>
       </div>
     </section>
 
