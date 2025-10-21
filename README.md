@@ -152,8 +152,14 @@ driver.quit()
           מסמך STR מסכם את תוצאות הבדיקות שבוצעו בפרויקט, כולל סטטוס כל בדיקה (עבר/נכשל), 
           בעיות שהתגלו במהלך הרצת התסריטים, והמלצות לשיפורים.
         </p>
-        <a href="STR">צפה במסמך STR</a>
-         <a href="STR3">צפה במסמך STR3</a>
+      <a href="https://docs.google.com/document/d/1ZHkW4pmOGvSDEkcUjwAW_d1bCNb04D7-/edit?usp=drive_link&ouid=102490978916154441779&rtpof=true&sd=true" target="_blank">
+  צפה במסמך STR
+</a>
+
+<a href="https://docs.google.com/document/d/1syDS0rET1S3G7hf44xITtaut-oxyeAo3/edit?usp=drive_link&ouid=102490978916154441779&rtpof=true&sd=true" target="_blank">
+  צפה במסמך STR3
+</a>
+
       </div>
     </section>
 
