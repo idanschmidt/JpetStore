@@ -5,150 +5,171 @@
   <title>הפרויקטים שלי</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: WHITE;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background-color: #f7f9fc;
       color: #333;
       margin: 0;
       padding: 0;
       direction: rtl;
       text-align: center;
     }
+
     header {
-      background-color: WHITE;
+      background-color: #0d6efd;
       color: white;
-      padding: 20px 0;
+      padding: 30px 0;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
     }
+
     h1 {
+      font-size: 2.5em;
       margin: 0;
     }
+
     main {
-      padding: 30px;
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+
+    h2 {
+      color: #0d6efd;
+      border-bottom: 2px solid #0d6efd;
+      display: inline-block;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+    }
+
+    .project-card {
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      padding: 25px;
+      margin: 20px auto;
+      text-align: right;
+      max-width: 800px;
+    }
+
+    .project-card h3 {
+      margin-top: 0;
+      color: #222;
+    }
+
+    .project-card p {
+      line-height: 1.6;
+    }
+
+    .project-card a {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #0d6efd;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+
+    .project-card a:hover {
+      background-color: #0b5ed7;
+    }
+
+    pre {
+      text-align: left;
+      background-color: #e3e7f1;
+      padding: 15px;
+      border-radius: 10px;
+      overflow-x: auto;
+      max-height: 300px;
+      direction: ltr;
     }
   </style>
 </head>
+
 <body>
   <header>
     <h1>הפרויקטים שלי</h1>
   </header>
- 
-  <main>
-    <html lang="he">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>סקריפט אוטומציה</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: WHITE;
-      color: #333;
-      margin: 0;
-      padding: 0;
-      direction: rtl;
-      text-align: center;
-    }
-    header {
-      background-color: BLUE;
-      color: white;
-      padding: 20px 0;
-    }
-    h1 {
-      margin: 0;
-    }
-    main {
-      padding: 30px;
-    }
-    pre {
-      text-align: left;
-      background-color:BLUE;
-      padding: 20px;
-      border-radius: 10px;
-      overflow-x: auto;
-      max-height: 400px;
-    }
-    a {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 10px 20px;
-      background-color:BLACK;
-      color: white;
-      text-decoration: none;
-      border-radius: 8px;
-    }
-    a:hover {
-      background-color: #005ea2;
-    }
-  </style>
-</head>
-<body>
-  
-    <h1>סקריפט בדיקות אוטומציה</h1>
- 
 
   <main>
-    <a href="MyScriptProject.py" download>הורד את הסקריפט שלי</a>
 
-    <h2>תצוגת הקוד (חלקית)</h2>
-    <pre>
-import time
+    <!-- פרויקט אוטומציה -->
+    <section>
+      <h2>פרויקט אוטומציה</h2>
+      <div class="project-card">
+        <h3>סקריפט בדיקות אוטומציה (Python + Selenium)</h3>
+        <p>
+          זהו סקריפט אוטומציה שבודק תהליך התחברות לאתר חנות חיות (JPetStore). 
+          הבדיקה כוללת הכנסת שם משתמש שגוי, סיסמה תקינה, לחיצה על כפתור LOGIN ובדיקת הודעת השגיאה הצפויה.
+        </p>
+        <a href="MyScriptProject.py" download>הורד את הסקריפט</a>
+
+        <h4>קטע קוד לדוגמה:</h4>
+        <pre>
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+import time
 
-# פותח דפדפן חדש
- driver = webdriver.Chrome()
-
-# בדיקות התחברות עבור משתמשים: idan ו-YUVAL
-#הרצת בדיקות משתמש ראשון - idan
-#בדיקה ראשונה
-# ניווט לדף האתר
+driver = webdriver.Chrome()
 driver.get("https://jpetstore.aspectran.com/")
 
-print("***תוצאה צפויה-Error message: Invalid username or password. Signon failed.")
-#פעולה ראשונה-עבור לדף התחברות בלחיצה על כפתור SIGN IN
-sign_in_button = driver.find_element(By.CLASS_NAME,"btn-outline-light")
+sign_in_button = driver.find_element(By.CLASS_NAME, "btn-outline-light")
 sign_in_button.click()
-time.sleep(5)
-print("עבר לדף התחברות")
+time.sleep(3)
 
-#פעולה שנייה-רשום שם משתמש שגוי
-Username_field1=driver.find_element(By.ID,"username")
-Username_field1.clear()
-Username_field1.send_keys("david")
-time.sleep(5)
-print("כתיבת שם משתמש-david")
+username = driver.find_element(By.ID, "username")
+username.send_keys("david")
 
-#פעולה שלישית- רשום סיסמה תקינה
-Password_field2=driver.find_element(By.ID,"password")
-Password_field2.clear()
-Password_field2.send_keys("I1234")
-time.sleep(5)
-print("כתיבת סיסמה-I1234")
+password = driver.find_element(By.ID, "password")
+password.send_keys("I1234")
 
-#פעולה רביעית- לחץ על כפתור LOGIN
-log_in_button = driver.find_element(By.CLASS_NAME,"text-center")
-log_in_button.click()
-time.sleep(5)
-print("לוחץ על כפתור -LOGIN")
+driver.find_element(By.CLASS_NAME, "text-center").click()
+time.sleep(3)
 
-#תוצאה
-result=driver.find_element(By.CLASS_NAME,"alert-danger")
-error_message_text=result.text
-print("Error message:", error_message_text)
+error = driver.find_element(By.CLASS_NAME, "alert-danger")
+print("Error message:", error.text)
 
-# השוואה בין תוצאה צפויה לתוצאה רצויה
-expectedText ="Invalid username or password.  Signon failed."
-if "Invalid username or password" in error_message_text:
-    print("עבר-בדיקה ראשונה עברה בהצלחה")
+if "Invalid username or password" in error.text:
+    print("עבר - בדיקה הצליחה")
 else:
-    print("נכשל-בדיקה ראשונה נכשלה")
-print("\n")
+    print("נכשל - הודעה לא תואמת")
 
- driver.quit()
-    </pre>
+driver.quit()
+        </pre>
+      </div>
+    </section>
+
+    <!-- פרויקטים של STR -->
+    <section>
+      <h2>פרויקטים של STR</h2>
+      <div class="STR">
+        <h3>דו"ח תוצאות בדיקות (STR)</h3>
+        <p>
+          מסמך STR מסכם את תוצאות הבדיקות שבוצעו בפרויקט, כולל סטטוס כל בדיקה (עבר/נכשל), 
+          בעיות שהתגלו במהלך הרצת התסריטים, והמלצות לשיפורים.
+        </p>
+        <a href="STR">צפה במסמך STR</a>
+      </div>
+    </section>
+
+    <!-- פרויקטים של STP -->
+    <section>
+      <h2>פרויקטים של STP</h2>
+      <div class="project-card">
+        <h3>מסמך תוכנית בדיקות (STP)</h3>
+        <p>
+          מסמך STP מפרט את אסטרטגיית הבדיקות, היקף הבדיקות, סביבת העבודה, 
+          כלי הבדיקה והשיטות בהן השתמשתי במהלך הפרויקט.
+        </p>
+        <a href="#">צפה במסמך STP</a>
+      </div>
+    </section>
+
   </main>
 </body>
 </html>
-
-  </main>
-</body>
-</html>
+S
