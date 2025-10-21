@@ -74,6 +74,15 @@ driver.quit()
 * [צפה במסמך STP](https://docs.google.com/document/d/1JtMgr5dU9URAdJ7VXqxckaiarcgpRlpQ/edit?usp=drive_link&ouid=102490978916154441779&rtpof=true&sd=true)
 * [צפה במסמך STP3](https://docs.google.com/document/d/14S3nZwK5bVuJcRWk5nR6qEZ41IQAXV7F/edit?usp=drive_link&ouid=102490978916154441779&rtpof=true&sd=true)
 
+דו"ח בדיקות STD ⚡
+מסמך תיאור בדיקות (STD)
 
+מסמך STD מפרט את מקרה הבדיקה, הצעדים שבוצעו, התוצאה הצפויה והתוצאה בפועל, כולל זיהוי בעיות שהתגלו במהלך הבדיקות.
+
+קישורים למסמכים:
+
+צפה במסמך STD
+
+צפה במסמך STD2
 
 
