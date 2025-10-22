@@ -5,7 +5,7 @@
 ## הידע והמיומנויות שלי 💻
 במהלך הקורס רכשתי ידע ומיומנויות מעשיות במגוון נושאים בתחום בדיקות התוכנה : 
 **סוגי מחזורי פיתוח תוכנה:** Waterfall, Agile, Scrum ו-V-Model, עם הבנה של תהליכים ותפקיד הבודק בכל שלב.
-**טכניקות בדיקה: ניסיון בבדיקות קופסה שחורה** (Black Box), קופסה לבנה (White Box)
+טכניקות בדיקה: ניסיון בבדיקות קופסה שחורה**** (Black Box), קופסה לבנה (White Box)
 **JIRA:** ניהול באגים, יצירת Stories, Tasks ו-Test Cases, מעקב אחרי סטטוס הבדיקות.
 **HTML + CSS:** בניית דפי אינטרנט בסיסיים עם עיצוב נקי ומסודר.
 **ידע בסיסי ב** JavaScript , Linux , SQL ,Python + Selenium
