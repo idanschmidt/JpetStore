@@ -1,7 +1,7 @@
 # הפרויקטים שלי 🚀
 
-שלום! אני **עידן שמידט**, בודק תוכנה ג'וניור עם ידע ב-Manual וב-Automation Testing, **Python**, **Selenium** ו-**ISTQB Certified**.  
-כאן תמצאו את הפרויקטים שלי מהקורס, כולל פרויקטים ידניים, אוטומציה ומסמכי בדיקה.
+שלום! אני **עידן שמידט**, בודק תוכנה ג'וניור  -**ISTQB Certified**.  
+
 
 ---
 
